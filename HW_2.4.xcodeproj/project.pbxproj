@@ -13,6 +13,7 @@
 		FAB48F53272B6CA800BD9FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB48F51272B6CA800BD9FB6 /* Main.storyboard */; };
 		FAB48F55272B6CAB00BD9FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB48F54272B6CAB00BD9FB6 /* Assets.xcassets */; };
 		FAB48F58272B6CAB00BD9FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB48F56272B6CAB00BD9FB6 /* LaunchScreen.storyboard */; };
+		FAB48F60272B70FD00BD9FB6 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB48F5F272B70FD00BD9FB6 /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FAB48F54272B6CAB00BD9FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB48F57272B6CAB00BD9FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAB48F59272B6CAB00BD9FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB48F5F272B70FD00BD9FB6 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				FAB48F4B272B6CA800BD9FB6 /* AppDelegate.swift */,
 				FAB48F4D272B6CA800BD9FB6 /* SceneDelegate.swift */,
+				FAB48F5F272B70FD00BD9FB6 /* LogInViewController.swift */,
 				FAB48F4F272B6CA800BD9FB6 /* ViewController.swift */,
 				FAB48F51272B6CA800BD9FB6 /* Main.storyboard */,
 				FAB48F54272B6CAB00BD9FB6 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB48F60272B70FD00BD9FB6 /* LogInViewController.swift in Sources */,
 				FAB48F50272B6CA800BD9FB6 /* ViewController.swift in Sources */,
 				FAB48F4C272B6CA800BD9FB6 /* AppDelegate.swift in Sources */,
 				FAB48F4E272B6CA800BD9FB6 /* SceneDelegate.swift in Sources */,
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
