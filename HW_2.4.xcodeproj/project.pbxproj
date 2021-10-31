@@ -16,7 +16,6 @@
 		FAB48F60272B70FD00BD9FB6 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB48F5F272B70FD00BD9FB6 /* LogInViewController.swift */; };
 		FAB48F68272EEA1C00BD9FB6 /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB48F67272EEA1C00BD9FB6 /* Accounts.swift */; };
 		FAEEAAB8272F1C490067C274 /* AboutUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEAAB7272F1C490067C274 /* AboutUserViewController.swift */; };
-		FAEEAABA272F1E560067C274 /* TapNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEAAB9272F1E560067C274 /* TapNavViewController.swift */; };
 		FAEEAABC272F249B0067C274 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEEAABB272F249B0067C274 /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		FAB48F5F272B70FD00BD9FB6 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		FAB48F67272EEA1C00BD9FB6 /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
 		FAEEAAB7272F1C490067C274 /* AboutUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUserViewController.swift; sourceTree = "<group>"; };
-		FAEEAAB9272F1E560067C274 /* TapNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapNavViewController.swift; sourceTree = "<group>"; };
 		FAEEAABB272F249B0067C274 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +48,6 @@
 		FAB48F3F272B6CA800BD9FB6 = {
 			isa = PBXGroup;
 			children = (
-				FAEEAAB9272F1E560067C274 /* TapNavViewController.swift */,
 				FAB48F4A272B6CA800BD9FB6 /* HW_2.4 */,
 				FAB48F49272B6CA800BD9FB6 /* Products */,
 			);
@@ -192,7 +189,6 @@
 				FAB48F4C272B6CA800BD9FB6 /* AppDelegate.swift in Sources */,
 				FAB48F4E272B6CA800BD9FB6 /* SceneDelegate.swift in Sources */,
 				FAEEAABC272F249B0067C274 /* ImageViewController.swift in Sources */,
-				FAEEAABA272F1E560067C274 /* TapNavViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
